@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Make $100+ daily by just playing games! | Freecash Review</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="title" content="Make $100+ everyday playing mobile games!">
+<meta name="description" content="Instant Cashout and many withdrawal methods available including PayPal and Bitcoins">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://freecashreview.github.io/index.html">
+<meta property="og:title" content="Make $100+ everyday playing mobile games!">
+<meta property="og:description" content="Instant Cashout and many withdrawal methods available including PayPal and Bitcoins">
+<meta property="og:image" content="https://i.imgur.com/Iz8D2TL.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://freecashreview.github.io/index.html">
+<meta property="twitter:title" content="Make $100+ everyday playing mobile games!">
+<meta property="twitter:description" content="Instant Cashout and many withdrawal methods available including PayPal and Bitcoins">
+<meta property="twitter:image" content="https://i.imgur.com/Iz8D2TL.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles3.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d7eeb92ccd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="mainboard">
+         <div class="titlebox">
+            <span class="title">Make $100+ daily playing games!</span>
+         </div>
+         <div class="videobox">
+            <video id="video" class="video" src="https://files.catbox.moe/ir9jfe.mp4" controls></video>
+            <div class="video-thumbnail" onclick="playVideo()"></div>
+         </div>
+         <div class="menubox">
+            <div class="textbox">
+                <span class="views"><i class="fa-regular fa-eye"></i>&nbsp;&nbsp;50M <span class="
+                    date"><i class="fa-regular fa-clock"></i>&nbsp;&nbsp;2 weeks ago</span></span>
+            </div>
+            <div class="interactbox">
+                <span class="likes">7M&nbsp;&nbsp;<i class="fa-regular fa-thumbs-up">&nbsp;&nbsp;</i> <i class="fa-regular fa-thumbs-down"></i></span>
+            </div>
+         </div>
+         <div class="reviewbox">
+            <div class="logobox">
+                <div class="logo"></div>
+            </div>
+            <div class="ratingbox">
+                <div class="freecashbox">
+                    <a class="freecash">Freecash</a>
+                </div>
+                <div class="trustpilotbox">
+                    <div class="trustpilot"></div>
+                </div>
+                <div class="starbox">
+                    <div class="stars"></div>
+                    <div class="rating">4.6</div>
+                </div>
+            </div>
+            <div class="prosbox">
+                <div class="pros1"><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Instant Cashout</div>
+                <div class="pros2"><i class="fa-solid fa-check"></i>&nbsp;&nbsp;No cap on earnings</div>
+                <div class="pros4"><i class="fa-solid fa-xmark"></i>&nbsp;&nbsp;Slow chat support</div>
+            </div>
+         </div>
+        </div>
+        <div class="adboard">
+            <button class="sharebox" id="shareButton"><i class="fa-solid fa-share-nodes"></i>&nbsp;&nbsp;Share</button>
+            <button class="signupbox" onclick=" window.open('https://cutt.ly/pwkbORXd','_blank')"><i class="fa-solid fa-sack-dollar"></i>&nbsp;&nbsp;Signup (upto $250)</button>
+        </div>
+
+        <script>
+             function playVideo() {
+            var video = document.getElementById('video');
+            var thumbnailContainer = document.querySelector('.video-thumbnail');
+
+            // Show the video and play it
+            video.style.display = 'block';
+            video.play();
+
+            // Hide the thumbnail container
+            thumbnailContainer.style.display = 'none';
+        }
+          </script>
+    <script>
+        const thumbsup = document.querySelector('.fa-thumbs-up');
+        const thumbsdown = document.querySelector('.fa-thumbs-down');
+    
+        let isUp = false;
+        let isDown = false;
+    
+        thumbsup.addEventListener('click', () => {
+          isUp = !isUp;
+          thumbsup.classList.toggle('fa-solid');
+          thumbsup.classList.toggle('fa-regular');
+        });
+    
+        thumbsdown.addEventListener('click', () => {
+          isDown = !isDown;
+          thumbsdown.classList.toggle('fa-solid');
+          thumbsdown.classList.toggle('fa-regular');
+        });
+    // Share button coding with fallback
+document.addEventListener('DOMContentLoaded', function() {
+  const shareButton = document.getElementById('shareButton');
+  
+  shareButton.addEventListener('click', function() {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Make $100+/day playing mobile games!',
+        text: 'Check out this awesome website!',
+        url: window.location.href
+      })
+      .then(() => {
+        console.log('Successfully shared');
+      })
+      .catch((error) => {
+        console.error('Error sharing:', error);
+      });
+    } else {
+      console.log('Web Share API not supported on this device');
+      shareLinkInput.value = window.location.href;
+      customShareModal.style.display = 'block';
+  
+  copyLinkButton.addEventListener('click', function() {
+    shareLinkInput.select();
+    document.execCommand('copy');
+    console.log('Link copied to clipboard');
+  });
+    }
+  });
+});
+    </script>
+    </body>
+</html>
