@@ -503,7 +503,7 @@ video {
     {
         width:100%;
         height:40%;
-	    margin-top:-10%;
+	    margin-top:-2.5%;
     }
     .sharebox
     {
@@ -511,7 +511,7 @@ video {
         height:8vw;
         border-radius: 2.5vw;
         font-size: 3.5vw;
-        margin-top: -10%;
+        margin-top: -5%;
     }
     .signupbox
 {
